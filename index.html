@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#8b260f"><title>Bhakti_RaaS</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="om">ॐ</div><div><h1>Bhakti_RaaS</h1><p>भक्ति • संस्कार • सनातन संस्कृति</p></div></header>
+<main>
+<section class="hero"><span class="tag">आज का भक्ति संदेश</span><h2>धर्म, सेवा और सत्य के मार्ग पर चलते रहें।</h2><p>हर दिन एक नई प्रेरणा, अपनी संस्कृति से जुड़ाव।</p><div class="watermark">Bhakti_RaaS_2063</div></section>
+<div class="grid">
+<button onclick="show('आज का पंचांग','यह शुरुआती demo screen है। लाइव पंचांग जोड़ने के लिए विश्वसनीय data/API आवश्यक है।')">📅<b>पंचांग</b></button>
+<button onclick="show('हिंदू कैलेंडर','मासिक कैलेंडर और तारीख का विस्तृत विवरण अगले build चरण में जोड़ा जाएगा।')">🗓️<b>हिंदू कैलेंडर</b></button>
+<button onclick="show('व्रत एवं त्योहार','एकादशी, पूर्णिमा, अमावस्या, प्रदोष और प्रमुख त्योहार।')">🪔<b>व्रत/त्योहार</b></button>
+<button onclick="show('Sanatan Current Affairs','यहाँ source और तारीख सहित सनातन धर्म, मंदिर, संत और भारतीय संस्कृति की सत्यापित खबरें दिखाई जाएँगी।')">🚩<b>Sanatan News</b></button>
+<button onclick="show('Wallpapers','श्रीराम, श्रीकृष्ण, महादेव, हनुमान जी, माता रानी और मंदिरों के wallpapers।')">🖼️<b>Wallpapers</b></button>
+<button onclick="show('Poster Maker','आगे के version में फोटो, नाम और quote जोड़कर poster बनाना। watermark सामान्य users नहीं हटा सकेंगे।')">🎨<b>Poster Maker</b></button>
+<button onclick="show('Bhajan Diary','राजस्थानी भजन, शिव, राम, कृष्ण, हनुमान, माता, मंत्र और स्तोत्र।')">📖<b>Bhajan Diary</b></button>
+<button onclick="show('Rajasthani Singers','Old/legendary और new/trending singers; जहाँ उपलब्ध हों वहाँ official source links।')">🎤<b>Rajasthani Singers</b></button>
+<button onclick="show('Ringtone / Hello Tune','Licensed audio या official platform links ही जोड़े जाएँगे।')">🎵<b>Ringtones</b></button>
+<button onclick="show('Login / Profile','Mobile OTP और Email login के लिए secure authentication backend जोड़ना बाकी है।')">🔐<b>Login / Profile</b></button>
+</div>
+<section id="panel" class="panel"><h3>आपका सनातन परिवार</h3><p>किसी feature पर tap करके जानकारी देखें।</p></section>
+</main><footer>🚩 भक्ति • ज्ञान • संस्कृति <span>Bhakti_RaaS_2063</span></footer>
+<script>
+function show(title,desc){document.getElementById('panel').innerHTML='<h3>'+title+'</h3><p>'+desc+'</p><small>Bhakti_RaaS_2063</small>';document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'nearest'});}
+</script></body></html>
